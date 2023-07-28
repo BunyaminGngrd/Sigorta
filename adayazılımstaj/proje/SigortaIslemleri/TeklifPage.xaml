@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SigortaIslemleri.TeklifPage"
+             Title="Teklif"
+             xmlns:viewmodel="clr-namespace:SigortaIslemleri.ViewModel"
+             x:DataType="viewmodel:TeklifViewModel">
+
+    <StackLayout>
+
+        <Button Text="Trafik" Command="{Binding TrafikCommand}" Margin="15"></Button>
+        <Button Text="Kasko" Command="{Binding KaskoCommand}" Margin="15"></Button>
+        <Button Text="Sağlık" Command="{Binding SaglikCommand}" Margin="15"></Button>
+        <Button Text="Dask" Command="{Binding DaskCommand}" Margin="15"></Button>
+
+    </StackLayout>
+
+</ContentPage>

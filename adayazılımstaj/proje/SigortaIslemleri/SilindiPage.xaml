@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SigortaIslemleri.SilindiPage"
+             Title="Emin miyiz?"          
+             xmlns:viewmodel="clr-namespace:SigortaIslemleri.ViewModel"
+             x:DataType="viewmodel:SilindiViewModel">
+    <VerticalStackLayout>
+        <Button Text="Seçtiğim Veriyi Sil" Command="{Binding ClickSilCommand}" Margin="100"></Button>
+        <Image Source="cop.jpg" Aspect="AspectFit" Margin="10" WidthRequest="200" HeightRequest="200"/>
+
+    </VerticalStackLayout>
+</ContentPage>

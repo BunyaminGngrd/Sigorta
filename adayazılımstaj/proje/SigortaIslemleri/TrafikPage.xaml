@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SigortaIslemleri.TrafikPage"
+             Title="Trafik"      
+             xmlns:viewmodel="clr-namespace:SigortaIslemleri.ViewModel"
+             x:DataType="viewmodel:Trafik">
+
+    <VerticalStackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Kullanıcı Adı:" />
+            <Entry Text="{Binding Username}" Placeholder="Kullanıcı Adı" HorizontalOptions="FillAndExpand" Margin="50,0,0,0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Tc:" />
+            <Entry Text="{Binding Tc}" Placeholder="Tc" MaxLength="11" HorizontalOptions="FillAndExpand" Margin="115,0,0,0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Email:" />
+            <Entry Text="{Binding Email}" Placeholder="Email" HorizontalOptions="FillAndExpand" Margin="95,0,0,0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Plaka İl Kodu:" />
+            <Entry Text="{Binding PlakaIlKodu}" Placeholder="PlakaIlKodu" HorizontalOptions="FillAndExpand" Margin="48,0,0,0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Plaka Kodu:" />
+            <Entry Text="{Binding PlakaKodu}" Placeholder="PlakaKodu" HorizontalOptions="FillAndExpand" Margin="59,0,0,0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Mülkiyet:" />
+            <Entry Text="{Binding Mulkiyet}" Placeholder="Mülkiyet" HorizontalOptions="FillAndExpand" Margin="77,0,0,0"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+            <Label Text="Teminatlar:" />
+            <Entry Text="{Binding Teminatlar}" Placeholder="Teminatlar" HorizontalOptions="FillAndExpand" Margin="62,0,0,0"/>
+        </StackLayout>
+
+        <Button Text="Ekle" Command="{Binding ClickEkleCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
+
+

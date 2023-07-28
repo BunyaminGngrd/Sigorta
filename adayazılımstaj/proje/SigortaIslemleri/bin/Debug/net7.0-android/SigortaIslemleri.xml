@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SigortaIslemleri</name>
+    </assembly>
+    <members>
+        <member name="T:SigortaIslemleri.ViewModel.Dask">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Username">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.username"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Tc">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.tc"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Email">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.email"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Il">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.il"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Ilce">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.ilce"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Adress">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.adress"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Mulkiyet">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.mulkiyet"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.Teminatlar">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Dask.teminatlar"/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.Dask.clickEkleCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.Dask.ClickEkleCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Dask.ClickEkleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.Dask.ClickEkle"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.Kasko">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Username">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.username"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Tc">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.tc"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Email">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.email"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Aracmodel">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.aracmodel"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Aracmarka">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.aracmarka"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Mulkiyet">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.mulkiyet"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.Teminatlar">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Kasko.teminatlar"/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.Kasko.clickEkleCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.Kasko.ClickEkleCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Kasko.ClickEkleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.Kasko.ClickEkle"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.MainViewModel.Username">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.MainViewModel.username"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.MainViewModel.Password">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.MainViewModel.password"/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.MainViewModel.clickLoginCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.MainViewModel.ClickLoginCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.MainViewModel.ClickLoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.MainViewModel.ClickLogin"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.PoliceDetayViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Column1">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.column1"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Column2">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.column2"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Column3">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.column3"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Column4">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.column4"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Column5">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.column5"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Column6">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.column6"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceDetayViewModel.Items">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.PoliceDetayViewModel.items"/>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.PoliceViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.PoliceViewModel._firstCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.PoliceViewModel.firstCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceViewModel.firstCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.PoliceViewModel.first"/>.</summary>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.PoliceViewModel._secondCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.PoliceViewModel.secondCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceViewModel.secondCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.PoliceViewModel.second"/>.</summary>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.PoliceViewModel.teklifCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.PoliceViewModel.TeklifCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceViewModel.TeklifCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.PoliceViewModel.Teklif"/>.</summary>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.PoliceViewModel.silCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.PoliceViewModel.SilCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.PoliceViewModel.SilCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.PoliceViewModel.Sil"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.Saglik">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.Username">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Saglik.username"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.Tc">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Saglik.tc"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.Email">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Saglik.email"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.Sagliksigorta">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Saglik.sagliksigorta"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.Mulkiyet">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Saglik.mulkiyet"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.Teminatlar">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Saglik.teminatlar"/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.Saglik.clickEkleCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.Saglik.ClickEkleCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Saglik.ClickEkleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.Saglik.ClickEkle"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.SilindiViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.SilindiViewModel.clickSilCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.SilindiViewModel.ClickSilCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.SilindiViewModel.ClickSilCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.SilindiViewModel.ClickSil"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.TeklifViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.TeklifViewModel.trafikCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.TeklifViewModel.TrafikCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TeklifViewModel.TrafikCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.TeklifViewModel.Trafik"/>.</summary>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.TeklifViewModel.daskCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.TeklifViewModel.DaskCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TeklifViewModel.DaskCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.TeklifViewModel.Dask"/>.</summary>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.TeklifViewModel.kaskoCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.TeklifViewModel.KaskoCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TeklifViewModel.KaskoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.TeklifViewModel.Kasko"/>.</summary>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.TeklifViewModel.saglikCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.TeklifViewModel.SaglikCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TeklifViewModel.SaglikCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.TeklifViewModel.Saglik"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.Trafik">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.Username">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.username"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.Tc">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.tc"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.Email">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.email"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.PlakaIlKodu">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.plakaIlKodu"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.PlakaKodu">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.plakaKodu"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.Mulkiyet">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.mulkiyet"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.Teminatlar">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.Trafik.teminatlar"/>
+        </member>
+        <member name="F:SigortaIslemleri.ViewModel.Trafik.clickEkleCommand">
+            <summary>The backing field for <see cref="P:SigortaIslemleri.ViewModel.Trafik.ClickEkleCommand"/>.</summary>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.Trafik.ClickEkleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SigortaIslemleri.ViewModel.Trafik.ClickEkle"/>.</summary>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.TumPoliceler">
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TumPoliceler.Column1">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.TumPoliceler.column1"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TumPoliceler.Column2">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.TumPoliceler.column2"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TumPoliceler.Column3">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.TumPoliceler.column3"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TumPoliceler.Column4">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.TumPoliceler.column4"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.TumPoliceler.Items">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.TumPoliceler.items"/>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.VeriSilViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.VeriSilViewModel.Column1">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.VeriSilViewModel.column1"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.VeriSilViewModel.Column2">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.VeriSilViewModel.column2"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.VeriSilViewModel.Column3">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.VeriSilViewModel.column3"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.VeriSilViewModel.Column4">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.VeriSilViewModel.column4"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.VeriSilViewModel.Items">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.VeriSilViewModel.items"/>
+        </member>
+        <member name="T:SigortaIslemleri.ViewModel.YasayanPoliceler">
+            <inheritdoc/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.YasayanPoliceler.Column1">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.YasayanPoliceler.column1"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.YasayanPoliceler.Column2">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.YasayanPoliceler.column2"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.YasayanPoliceler.Column3">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.YasayanPoliceler.column3"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.YasayanPoliceler.Column4">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.YasayanPoliceler.column4"/>
+        </member>
+        <member name="P:SigortaIslemleri.ViewModel.YasayanPoliceler.Items">
+            <inheritdoc cref="F:SigortaIslemleri.ViewModel.YasayanPoliceler.items"/>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Tc">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Tc" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Il">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Il" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ilce">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ilce" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Adress">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Adress" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Mulkiyet">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Mulkiyet" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Teminatlar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Teminatlar" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Aracmodel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Aracmodel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Aracmarka">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Aracmarka" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Column1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Column1" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Column2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Column2" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Column3">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Column3" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Column4">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Column4" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Column5">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Column5" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Column6">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Column6" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Sagliksigorta">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Sagliksigorta" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PlakaIlKodu">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PlakaIlKodu" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PlakaKodu">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PlakaKodu" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Tc">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Tc" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Il">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Il" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ilce">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ilce" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Adress">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Adress" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Mulkiyet">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Mulkiyet" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Teminatlar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Teminatlar" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Aracmodel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Aracmodel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Aracmarka">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Aracmarka" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Column1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Column1" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Column2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Column2" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Column3">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Column3" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Column4">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Column4" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Column5">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Column5" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Column6">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Column6" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Sagliksigorta">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Sagliksigorta" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PlakaIlKodu">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PlakaIlKodu" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PlakaKodu">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PlakaKodu" generated properties.</summary>
+        </member>
+    </members>
+</doc>

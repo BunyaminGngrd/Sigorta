@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SigortaIslemleri.PoliceDetay"
+             Title="Police Detayları" 
+             xmlns:viewmodel="clr-namespace:SigortaIslemleri.ViewModel"
+             x:DataType="viewmodel:PoliceDetayViewModel">
+    <ListView x:Name="listViewm" ItemsSource="{Binding Items}">
+        <ListView.Header>
+            <Grid BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+
+                </Grid.ColumnDefinitions>
+                <Label Text="Tanzim Tarihi" HorizontalOptions="Fill"  Grid.Column="0" FontSize="Medium" FontAttributes="Bold" BackgroundColor="MediumBlue" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+                <Label Text="Vade Başlangıç" HorizontalOptions="Fill" Grid.Column="1" FontSize="Medium" FontAttributes="Bold" BackgroundColor="MediumBlue" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+                <Label Text="Vade Bitiş" HorizontalOptions="Fill" Grid.Column="2" FontSize="Medium" FontAttributes="Bold" BackgroundColor="MediumBlue" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+                <Label Text="Teminatlar" HorizontalOptions="Fill" Grid.Column="3" FontSize="Medium" FontAttributes="Bold" BackgroundColor="MediumBlue" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+                <Label Text="Sigortalanan Mülkiyet" HorizontalOptions="Fill" Grid.Column="4" FontSize="Medium" FontAttributes="Bold" BackgroundColor="MediumBlue" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+                <Label Text="Prim" HorizontalOptions="Fill" Grid.Column="5" FontSize="Medium" FontAttributes="Bold" BackgroundColor="MediumBlue" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+
+            </Grid>
+        </ListView.Header>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid BackgroundColor="Black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text ="{Binding Column1}" HorizontalOptions="Fill" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" Margin="1"></Label>
+                        <Label Grid.Column="1" Text ="{Binding Column2}" HorizontalOptions="Fill" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" Margin="1"></Label>
+                        <Label Grid.Column="2" Text ="{Binding Column3}" HorizontalOptions="Fill" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" Margin="1"></Label>
+                        <Label Grid.Column="3" Text ="{Binding Column4}" HorizontalOptions="Fill" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" Margin="1"></Label>
+                        <Label Grid.Column="4" Text ="{Binding Column5}" HorizontalOptions="Fill" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" Margin="1"></Label>
+                        <Label Grid.Column="5" Text ="{Binding Column6}" HorizontalOptions="Fill" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" Margin="1"></Label>
+
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

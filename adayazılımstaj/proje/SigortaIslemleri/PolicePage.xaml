@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SigortaIslemleri.PolicePage"
+             Title="Police Sayfası"
+             xmlns:viewmodel="clr-namespace:SigortaIslemleri.ViewModel"
+             x:DataType="viewmodel:PoliceViewModel">
+
+    <StackLayout>
+        <Button Text="Yaşayan Poliçeleri Göster" Command="{Binding firstCommand}" Margin="50"></Button>
+
+        <Button Text="Tüm Poliçelerimi Göster" Command="{Binding secondCommand}" Margin="50"></Button>
+
+        <Button Text="Police Silmek İstiyorum" Command="{Binding SilCommand}" Margin="50"></Button>
+
+        <Button Text="Teklif İstiyorum" Command="{Binding TeklifCommand}" Margin="50"></Button>
+
+
+        <Image Source="ada.jpg" Aspect="AspectFit" Margin="50" WidthRequest="50" HeightRequest="50"/>
+
+
+    </StackLayout>
+</ContentPage>
+
+
+
+
+

@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = SigortaIslemleri
+build_property.ProjectDir = C:\Users\LENOVO\Desktop\proje\SigortaIslemleri\
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/DaskPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.DaskPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DaskPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DaskPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/KaskoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.KaskoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = KaskoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = KaskoPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/PoliceDetay.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.PoliceDetay.xaml
+build_metadata.AdditionalFiles.TargetPath = PoliceDetay.xaml
+build_metadata.AdditionalFiles.RelativePath = PoliceDetay.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/Policeler.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.Policeler.xaml
+build_metadata.AdditionalFiles.TargetPath = Policeler.xaml
+build_metadata.AdditionalFiles.RelativePath = Policeler.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/PolicePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.PolicePage.xaml
+build_metadata.AdditionalFiles.TargetPath = PolicePage.xaml
+build_metadata.AdditionalFiles.RelativePath = PolicePage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/SaglikPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.SaglikPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SaglikPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SaglikPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/SilindiPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.SilindiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SilindiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SilindiPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/TeklifPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.TeklifPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TeklifPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TeklifPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/TrafikPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.TrafikPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TrafikPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TrafikPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/VeriSilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.VeriSilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = VeriSilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = VeriSilPage.xaml
+
+[C:/Users/LENOVO/Desktop/proje/SigortaIslemleri/YasayanPoliceui.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SigortaIslemleri.YasayanPoliceui.xaml
+build_metadata.AdditionalFiles.TargetPath = YasayanPoliceui.xaml
+build_metadata.AdditionalFiles.RelativePath = YasayanPoliceui.xaml

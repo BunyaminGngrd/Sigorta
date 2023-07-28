@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SigortaIslemleri.MainPage"
+             xmlns:viewmodel="clr-namespace:SigortaIslemleri.ViewModel"
+             x:DataType="viewmodel:MainViewModel"
+             Title="Giriş Yap">
+    <Grid>
+        <!-- Background Image -->
+        <StackLayout>
+        <Entry Text="{Binding Username}" Placeholder="Kullanıcı Adı" Margin="30"/>
+        <Entry Text="{Binding Password}" Placeholder="Şifre" IsPassword="True" Margin="30" />
+        <Button Text="Giriş Yap" Command="{Binding ClickLoginCommand}" Margin="30"></Button>
+        <Image Source="ada.jpg" Aspect="AspectFit" Margin="50" WidthRequest="200" HeightRequest="200"/>
+
+    </StackLayout>
+    </Grid>
+
+</ContentPage>
