@@ -19,7 +19,7 @@
             <Entry Text="{Binding Email}" Placeholder="Email" HorizontalOptions="FillAndExpand" Margin="95,0,0,0"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
-            <Label Text="Saglık Sigortası;" />
+            <Label Text="Saglık Sigortası:" />
             <Entry Text="{Binding Sagliksigorta}" Placeholder="Saglık Sigortası" HorizontalOptions="FillAndExpand" Margin="35,0,0,0"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
